@@ -19,7 +19,8 @@ To create a program that calculates a person's age in years, months, and days ba
 ``` 
 #include <stdio.h>
 
-void calculateAge(int birth_day, int birth_month, int birth_year, int current_day, int current_month, int current_year) {
+void calculateAge(int birth_day, int birth_month, int birth_year,
+int current_day, int current_month, int current_year) {
     int age_years, age_months, age_days;
 
     age_years = current_year - birth_year;
