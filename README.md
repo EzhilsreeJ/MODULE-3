@@ -35,14 +35,16 @@ void calculateAge(int birth_day, int birth_month, int birth_year, int current_da
         age_months += 12;
     }
 
-    printf("Present Age Years: %d Months: %d Days: %d\n", age_years, age_months, age_days);
+    printf("Present Age Years: %d Months: %d Days: %d\n",
+             age_years, age_months, age_days);
 }
 
 int main() {
     int birth_day = 12, birth_month = 12, birth_year = 1990;
     int current_day = 8, current_month = 10, current_year = 2020;
 
-    calculateAge(birth_day, birth_month, birth_year, current_day, current_month, current_year);
+    calculateAge(birth_day, birth_month, birth_year, current_day,
+       current_month, current_year);
 
     return 0;
 }
